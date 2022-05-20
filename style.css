@@ -1,0 +1,270 @@
+header{
+    background: #A52A2A;
+}
+
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+
+.productos{
+    padding-left: 15px;
+    padding-top: 80px;
+    margin: 40px;
+}
+
+
+.productos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    box-sizing: border-box;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 20px;
+}
+
+.productos li:hover{
+    border-color: #c78c19;
+}
+
+.productos li:active{
+    border-color: #088c19;
+}
+
+.productos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.productos li:hover h2{
+    font-size: 33px;
+}
+
+
+.servicios{
+    width: 200px;
+    height: 130px;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.descripcion{
+    margin: 30px;
+}
+
+
+.titulo{
+    padding-bottom: 40px;
+    margin: 40px;
+}
+
+
+.logoPie{
+    width: 250px;
+    height: 140px;
+}
+
+footer{
+    text-align: center;
+    background: url(Img/Pie.jpg);
+    padding: 30px;
+}
+
+.copyright{
+    color: #A52A2A;
+}
+
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+form{
+    margin: 40px 0;
+}
+
+form label, form p{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padron{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox{
+    margin: 20px 0;
+}
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: orange;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background: darkorange;
+    transform: scale(1.2);
+}
+
+table{
+    margin: 40px 40px;
+}
+
+thead{
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td,th{
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}
+
+
+/*CSS para nuestra Home */
+
+body{
+    background: #DEB887;
+}
+
+.portada{
+    width: 100%;
+    position: absolute;
+    left: 0px;
+}
+
+header .caja{
+    padding: 20px;
+}
+
+.titulo-principal{
+    font-size: 2em;
+    position: absolute;
+    top: 1000px;
+    left: 560px;
+}
+
+.titulo-principal:first-letter{
+    font-weight: bold;
+}
+
+
+.parrafo{
+    font-size: 1em;
+    position: absolute;
+    top: 1070px;
+    left: 90px;
+}
+
+.parrafo2{
+    font-size: 1em;
+    position: absolute;
+    top: 1150px;
+    left: 90px;
+}
+
+.imagenDiferencial{
+    width: 600px;
+    position: absolute;
+    top: 1300px;
+    left: 90px;
+    transition: 400ms;
+    box-shadow: 10px 10px 30px #000000;
+}
+
+.imagenDiferencial:hover{
+    opacity: 0.3;
+}
+
+
+.titulo-centralizado{
+    font-size: 2em;
+    position: absolute;
+    top: 1300px;
+    left: 800px;
+}
+
+.listaDiferenciales{
+    font-size: 1em;
+    position: absolute;
+    top: 1400px;
+    left: 800px;
+}
+
+.principal strong{
+    font-weight: bold;
+}
+
+.principal em{
+    font-style: italic;
+}
+
+.titulo-mapa{
+    font-size: 2em;
+    position: absolute;
+    top: 1700px;
+    left: 560px;
+}
+
+.mapa{
+    position: absolute;
+    top: 1800px;
+    left: 220px;
+}
+
+.video{
+    position: absolute;
+    top: 2250px;
+    left: 400px;
+}
+
+.piePagina{
+    text-align: center;
+    background: url(Img/Pie.jpg);
+    position: relative;
+    top: 2350px;
+    padding: 30px;
+}
+

@@ -1,0 +1,51 @@
+body{
+    background: #DEB887;
+}
+
+.titulo-principal{
+    padding-left: 30px;
+}
+
+.portada{
+    width: 1340px;
+}
+
+.principal{
+    padding: 20px;
+}
+
+.titulo-centralizado{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+
+strong{
+    color: #A52A2A;
+}
+
+em strong{
+    color: #A52A2A;
+}
+
+.diferencial{
+    padding: 30px;
+}
+
+.items{
+    font-style: italic;
+}
+
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.imagenDiferencial{
+    width: 50%;
+}
